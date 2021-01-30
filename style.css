@@ -1,69 +1,79 @@
-body{
+body {
     font-family: 'Assistant', sans-serif;
-      margin: 0px;
-
+    margin: 0px;
 }
-h1,h2,h3,h4, .button{
-   font-family: 'Varela Round', sans-serif;
+
+h1,
+h2,
+h3,
+h4,
+.button {
+    font-family: 'Varela Round', sans-serif;
     font-weight: 400;
 }
-h1{
+
+h1 {
     color: #f7941d;
-  font-size: 35px;
-  line-height: 1.1;
+    font-size: 35px;
+    line-height: 1.1;
     margin-bottom: 10px;
 }
 
-h2{
-    color:#f7941d;
-    font-size:25px;
+h2 {
+    color: #f7941d;
+    font-size: 25px;
     margin-top: 0px;
     text-align: center;
     margin-bottom: 0px;
 }
-h3{
+
+h3 {
     color: #fff;
     font-size: 25px;
     margin-top: 0px;
     margin-bottom: 10px;
 }
 
-p{
+p {
     color: #fff;
     font-size: 20px;
     margin-top: 0px;
 }
-.about{
-background:#176d8d;
+
+.about {
+    background: #176d8d;
     margin: auto;
     background-attachment: fixed;
     background-color: #176d8d;
     margin: auto
-  
 }
+
 .container {
-  max-width: 900px;
-  margin: auto;
+    max-width: 900px;
+    margin: auto;
     padding-top: 20px;
 }
-.container h2{
-    margin-bottom: 30px;
+
+.container h2 {
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
+
 img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 
 .about .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  grid-gap: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 0px;
 }
 
-.button{
-    color:#f7941d;
+.button {
+    color: #f7941d;
     text-decoration: none;
     border: 3px solid #fff;
     padding: 10px 15px;
@@ -72,81 +82,94 @@ img {
     border-radius: 20px;
 
 }
-.button:hover{
-  background: #fff;
+
+.button:hover {
+    background: #fff;
 }
+
 .about img {
-  display: block;
+    display: block;
 }
+
 .logo {
-  max-width: 150px;
-  display: block;
-  margin: 10px auto;
-  border-radius: 20px;
+    max-width: 150px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
 }
+
 .gallery {
-  list-style: none;
-  padding: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 40px;
-  font-size: 21px;
-  text-align: center;
-  font-weight: bold;
-  color: gray;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
 }
+
 .gallery img {
-  display: block;
+    display: block;
     margin: auto;
 }
-.about h2{
- text-align: right;
+
+.about h2 {
+    text-align: right;
     font-size: 30px;
     color: #f7941d;
     margin-bottom: 7px;
-     color: #fff;
-}
-.contact{
-    background:#176d8d;
-  text-align: center;
-    margin-top: 60px;
-    padding: 20px 0px;
- background-size: 100%;
-    background: url(img1/%D7%A8%D7%A7%D7%A2.jpg) center 90%;
-}
-.contact a{
-    text-decoration: none;
-}
-a {
-  color:#fff;
-}
-.contact ul {
-  list-style: none;
-  padding: 0;
-     margin-top:5px;
-}
-.contact li {
-  margin-bottom: 7px;
-    margin-top: 5px;
-}
-.footer {
-  background: #fff;
-  text-align: center;
-  padding: 30px 0;
-    background:#fff;
-}
-.footer a {
-  margin: 0 10px;
-}
-.contact h2{
-    margin-bottom: 7px;
     color: #fff;
 }
-.contact p{
+
+.contact {
+    background: #176d8d;
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px 0px;
+    background-size: 100%;
+    background: url(img1/%D7%A8%D7%A7%D7%A2.jpg) center 90%;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+a {
+    color: #fff;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.contact li {
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+
+.footer {
+    background: #fff;
+    text-align: center;
+    padding: 30px 0;
+    background: #fff;
+}
+
+.footer a {
+    margin: 0 10px;
+}
+
+.contact h2 {
+    margin-bottom: 7px;
+    color: #fff;
+    margin-top: 0px;
+}
+
+.contact p {
     margin-top: 15px;
     margin-bottom: 7px;
     color: #f7941d;
 }
+
 .contact a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
