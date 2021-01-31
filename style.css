@@ -44,8 +44,7 @@ p {
     background: #176d8d;
     margin: auto;
     background-attachment: fixed;
-    background-color: #176d8d;
-    margin: auto
+    background-size: 100%;
 }
 
 .container {
@@ -125,7 +124,7 @@ img {
     margin-top: 60px;
     padding: 20px 0px;
     background-size: 100%;
-    background: url(img1/%D7%A8%D7%A7%D7%A2.jpg) center 90%;
+    background: url(img1/background.jpg) center 90%;
 }
 
 .contact a {
@@ -133,13 +132,13 @@ img {
 }
 
 a {
-    color: #fff;
+    color: #f7941d;
 }
 
 .contact ul {
     list-style: none;
     padding: 0;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .contact li {
@@ -166,10 +165,35 @@ a {
 
 .contact p {
     margin-top: 15px;
-    margin-bottom: 7px;
+    margin-bottom:15px;
     color: #f7941d;
 }
 
 .contact a:hover {
     text-decoration: underline;
+    margin-top: 40px;
+}
+ input{
+    color: #fff;
+background: none;
+     border: 0;
+    border-bottom:3px solid;
+     padding: 2px;
+}
+.news input{
+      background: transparent;
+
+}
+input:focus{
+    outline: 0;
+   background: rgba(0,0,0,0.5);
+    
+}
+label {
+   padding: 10px;
+    color: #fff;
+}
+input.button{
+    padding: 8px 12px;
+    border-radius: 18px;
 }
